@@ -1,0 +1,102 @@
+<!-- admin_dashboard.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #222831;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .record {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .record p {
+            margin: 5px 0;
+        }
+        .status-icon {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 24px;
+            color: #555;
+        }
+        select {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 200px;
+            margin: 20px auto;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Dashboard</h1>
+        <form method="post">
+            {% csrf_token %}
+            {% for record in data %}
+                <div class="record">
+                    <p><strong>Crime Type:</strong> {{ record.Crime_Type }}</p>
+                    <p><strong>Date:</strong> {{ record.Date }}</p>
+                    <p><strong>Time:</strong> {{ record.Time }}</p>
+                    <p><strong>State:</strong> {{ record.State }}</p>
+                    <p><strong>District:</strong> {{ record.District }}</p>
+                    <p><strong>Latitude:</strong> {{ record.Latitude }}</p>
+                    <p><strong>Longitude:</strong> {{ record.Longitude }}</p>
+                    <select name="approval_status_{{ forloop.counter0 }}">
+                        <option value="pending" selected>Pending</option>
+                        <option value="approved">Approved</option>
+                        <option value="rejected">Rejected</option>
+                    </select>
+                    <span class="status-icon"><i class="fas fa-exclamation-circle"></i></span>
+                </div>
+            {% endfor %}
+            <button type="submit">Update Status</button>
+        </form>
+    </div>
+</body>
+</html>

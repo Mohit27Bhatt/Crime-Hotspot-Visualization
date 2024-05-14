@@ -1,0 +1,256 @@
+Crime_Type,Date,Time,State,District,Latitude,Longitude,Approval Status
+crime_against_children,2024-04-11,17:26,Jharkhand,Ranchi,23.412180152717096,85.2292764001261,approved
+kidnapping,2024-04-26,07:49,Delhi,New Delhi,28.6139,77.209,approved
+murder,2024-04-11,23:21,Karnataka,Tumkur,13.3383324,77.1362812,approved
+kidnapping,2024-04-05,15:00,Rajasthan,Jaipur,26.9124,75.7873,approved
+crime_against_children,2024-04-10,02:19,Kerala,Thiruvananthapuram,8.5241,76.9366,approved
+crime_against_children,2024-04-11,03:17,Gujarat,Ahmedabad,23.0225,72.5714,approved
+crime_against_children,2024-04-12,12:58,West Bengal,Kolkata,22.5726,88.3639,approved
+kidnapping,2024-04-13,18:21,Assam,Guwahati,26.1445,91.7362,approved
+crime_against_children,2024-04-14,10:55,Punjab,Chandigarh,30.7333,76.7794,approved
+crime_against_children,2024-04-15,22:29,Haryana,Gurgaon,28.4595,77.0266,approved
+crime_against_children,2024-04-16,17:50,Bihar,Patna,25.5941,85.1376,approved
+kidnapping,2024-04-18,23:17,Madhya Pradesh,Bhopal,23.2599,77.4126,approved
+crime_against_children,2024-04-15,15:33,Andhra Pradesh,Hyderabad,17.3850,78.4867,approved
+crime_against_children,2024-04-14,04:25,Telangana,Warangal,17.9784,79.6001,approved
+crime_against_children,2024-04-13,00:55,Odisha,Bhubaneswar,20.2961,85.8245,approved
+kidnapping,2024-04-12,11:35,Uttarakhand,Dehradun,30.3165,78.0322,approved
+crime_against_children,2024-04-11,22:16,Goa,Panaji,15.4909,73.8278,approved
+crime_against_children,2024-04-10,05:51,Himachal Pradesh,Shimla,31.1048,77.1734,approved
+crime_against_children,2024-04-11,03:20,Tripura,Agartala,23.8315,91.2868,approved
+kidnapping,2024-03-14,04:41,Manipur,Imphal,24.8170,93.9368,approved
+crime_against_children,2024-04-14,22:26,Mizoram,Aizawl,23.7271,92.7176,approved
+crime_against_children,2024-04-14,18:09,Meghalaya,Shillong,25.5788,91.8933,approved
+crime_against_children,2024-04-17,07:42,Sikkim,Gangtok,27.3389,88.6065,approved
+kidnapping,2024-04-16,22:45,Arunachal Pradesh,Itanagar,27.0844,93.6053,approved
+crime_against_children,2024-04-15,05:04,Nagaland,Kohima,25.6751,94.1086,approved
+crime_against_children,2024-04-14,15:30,Chhattisgarh,Raipur,21.2514,81.6296,approved
+crime_against_children,2024-04-13,14:25,Jammu and Kashmir,Srinagar,34.0837,74.7973,approved
+kidnapping,2024-04-12,02:12,Ladakh,Leh,34.1526,77.5771,approved
+crime_against_children,2024-04-11,17:40,Daman and Diu,Daman,20.4283,72.8397,approved
+crime_against_children,2024-04-10,07:09,Dadra and Nagar Haveli,Silvassa,20.2739,73.0169,approved
+crime_against_children,2024-04-09,04:29,Lakshadweep,Kavaratti,10.5667,72.6167,approved
+kidnapping,2024-04-08,17:59,Andaman and Nicobar Islands,Port Blair,11.6234,92.7265,approved
+crime_against_children,2024-04-07,22:16,Puducherry,Puducherry,11.9139,79.8145,approved
+crime_against_children,2024-04-06,04:31,Chandigarh,Chandigarh,30.7333,76.7794,approved
+crime_against_children,2024-04-05,19:21,Ladakh,Kargil,34.5553,76.1325,approved
+kidnapping,2024-04-04,08:56,Delhi,New Delhi,28.6139,77.209,approved
+crime_against_children,2024-04-03,16:35,Rajasthan,Udaipur,24.5854,73.7125,approved
+crime_against_children,2024-04-02,01:12,Tamil Nadu,Coimbatore,11.0168,76.9558,approved
+crime_against_children,2024-04-01,11:19,Kerala,Kochi,9.9312,76.2673,approved
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,approved
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,approved
+murder,2024-04-04,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,approved
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,approved
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,approved
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,approved
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,approved
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,approved
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,approved
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,approved
+crime_against_sc,2024-04-09,06:34,Jharkhand,Ranchi,23.358740991068792,85.32861327286811,approved
+kidnapping,2024-04-12,13:45,Uttarakhand,Pithoragarh,30.116473094604714,80.46716307755561,approved
+crime_against_sc,2024-04-13,10:57,Jharkhand,Ranchi,23.363862639445216,85.32490539131686,approved
+crime_against_women,2024-04-13,21:54,Bihar,Patna,25.61616376327178,85.144776821071,approved
+murder,2024-04-12,00:08,Andhra Pradesh,Anantapur,14.671101838944201,77.60234498964566,approved
+murder,2024-04-12,10:16,Andhra Pradesh,Chittoor,13.217038347914793,79.09539985630546,approved
+kidnapping,2024-04-11,18:19,Andhra Pradesh,Visakhapatnam,17.722921462580295,83.30319356911788,approved
+kidnapping,2024-04-13,19:24,Andhra Pradesh,Nellore,14.447925577839287,79.99600625034874,approved
+kidnapping,2024-04-15,17:28,Andhra Pradesh,East Godavari,17.314128873578493,82.32714842073621,approved
+crime_against_women,2024-04-15,16:33,Andhra Pradesh,Guntur,16.283831922646396,80.45031881329123,approved
+crime_against_children,2024-04-15,20:35,Andhra Pradesh,Kurnool,15.828510865553728,78.034146308637,approved
+cyber_crimes,2024-04-10,16:47,Andhra Pradesh,Kurnool,15.780735929496295,78.04522704973351,approved
+economic_crimes,2024-04-16,15:49,Andhra Pradesh,Nellore,14.437570217701502,79.99712848650235,approved
+crime_against_women,2024-04-14,19:56,Andhra Pradesh,Visakhapatnam,17.687150423319434,83.23043060197962,approved
+kidnapping,2024-04-12,17:58,Arunachal Pradesh,Upper Subansiri,28.717267987642483,95.05480955354871,approved
+crime_against_women,2024-04-11,17:59,Arunachal Pradesh,Anjaw,28.11021503082598,96.77622985735071,approved
+murder,2024-04-15,16:02,Arunachal Pradesh,Kra Daadi,27.93510947915498,93.78705596871443,approved
+crime_against_women,2024-04-15,20:05,Arunachal Pradesh,Papum Pare,27.28934146677164,93.62507628975436,approved
+crime_against_sc,2024-04-11,17:06,Arunachal Pradesh,East Kameng,27.53876367203203,92.9349975544028,approved
+murder,2024-04-11,17:39,Assam,Barpeta,26.305818749022354,91.0195312416181,approved
+murder,2024-04-14,18:43,Assam,Goalpara,26.156969163508602,90.64187622017927,approved
+kidnapping,2024-04-11,15:35,Assam,Bongaigaon,26.473077734813103,90.49877929268405,approved
+crime_against_sc,2024-04-14,19:48,Assam,Dhubri,26.017382410315868,89.97644805698657,approved
+cyber_crimes,2024-04-14,02:50,Assam,Lakhimpur,26.032086836593397,90.30596923723353,approved
+kidnapping,2024-04-16,16:52,Assam,Udalguri,26.707678645935335,92.03027342911811,approved
+murder,2024-04-16,17:56,Bihar,Bhagalpur,25.674156085147164,84.82293319597376,approved
+kidnapping,2024-04-15,13:00,Bihar,Purnia,25.773064045356623,87.46717071480818,approved
+kidnapping,2024-04-15,13:00,Bihar,Purnia,25.773064045356623,87.46717071480818,approved
+kidnapping,2024-04-15,13:00,Bihar,Purnia,25.773064045356623,87.46717071480818,approved
+kidnapping,2024-04-15,13:00,Bihar,Purnia,25.773064045356623,87.46717071480818,approved
+kidnapping,2024-04-15,13:00,Bihar,Purnia,25.773064045356623,87.46717071480818,approved
+murder,2024-04-16,17:56,Bihar,Bhagalpur,25.674156085147164,84.82293319597376,approved
+murder,2024-04-16,17:56,Bihar,Bhagalpur,25.674156085147164,84.82293319597376,approved
+crime_against_women,2024-04-15,19:07,Bihar,Gaya,24.750983938278548,85.06554222054548,approved
+crime_against_sc,2024-04-16,17:06,Bihar,Siwan,26.19801887739186,84.35412595979871,approved
+crime_against_st,2024-04-15,18:09,Bihar,Darbhanga,26.142001158535717,85.83288570865989,approved
+cyber_crimes,2024-04-14,19:17,Bihar,Patna,25.456759911825234,85.20089720841499,approved
+crime_against_st,2024-04-15,18:21,Bihar,Muzaffarpur,26.1067836698478,85.32559203682467,approved
+crime_against_sc,2024-02-08,06:30,Kerala,Thrissur,10.520108840450533,76.21607208042406,approved
+crime_against_women,2024-04-10,22:12,Chhattisgarh,Raipur,21.20242551598556,81.63679504184985,approved
+cyber_crimes,2024-04-13,20:15,Chhattisgarh,Dhamtari,20.523116792364185,81.70202633365989,approved
+economic_crimes,2024-04-15,21:17,Chhattisgarh,Bilaspur,22.06766437196461,82.14532469864936,approved
+crime_against_sc,2024-04-14,21:16,Chhattisgarh,Baloda Bazar,21.640882607623336,82.16976928291844,approved
+economic_crimes,2024-04-11,20:27,Chhattisgarh,Gariaband,20.384111682736826,82.29151153354907,approved
+kidnapping,2024-04-15,20:29,Goa,,15.479845305918765,73.81967925815843,approved
+crime_against_women,2024-04-15,19:32,Goa,South Goa,15.199220391952453,73.98934935685247,approved
+crime_against_women,2024-04-15,21:30,Goa,South Goa,15.508153304551369,73.80622100725304,approved
+kidnapping,2024-04-14,21:32,Goa,,15.398261897020312,74.00418090401217,approved
+murder,2024-04-15,23:36,Gujarat,,23.00107565722354,72.54622650041712,approved
+kidnapping,2024-04-14,20:34,Gujarat,Gandhinagar,23.25574914055281,72.6479272839788,approved
+crime_against_sc,2024-04-14,19:36,Gujarat,Jamnagar,22.43346635878927,70.11254881974311,approved
+cyber_crimes,2024-04-11,13:01,Gujarat,Porbandar,21.639263050687383,69.66307067661548,approved
+kidnapping,2024-04-14,11:39,Gujarat,Kutch,23.666034363056127,69.7379150055349,approved
+kidnapping,2024-04-14,15:41,Gujarat,Morbi,22.807374123862076,70.84698485909031,approved
+crime_against_women,2024-04-14,21:44,Haryana,Hisar,29.143225834215166,75.74084470979871,approved
+crime_against_women,2024-04-13,14:45,Haryana,Kaithal,29.79300461926753,76.41578292794294,approved
+murder,2024-04-14,15:48,Haryana,Sonipat,28.987235935331707,77.02087211582695,approved
+kidnapping,2024-04-16,19:47,Haryana,Rohtak,28.8981921219925,76.59364986393486,approved
+crime_against_children,2024-04-14,20:50,Haryana,Kurukshetra,29.971573087387323,76.83976721757064,approved
+kidnapping,2024-04-08,17:52,Himachal Pradesh,Mandi,31.675261004877907,76.96966552524829,approved
+cyber_crimes,2024-04-14,23:58,Himachal Pradesh,,31.336222707560527,76.76342296574148,approved
+economic_crimes,2024-04-16,20:56,Himachal Pradesh,Shimla,31.093258117327004,77.16737008091515,approved
+crime_against_children,2024-04-14,18:57,Himachal Pradesh,Kullu,31.952482673629614,77.11221312638374,approved
+kidnapping,2024-04-14,15:00,Himachal Pradesh,Sirmaur,31.997616570431397,77.40705871372484,approved
+crime_against_women,2024-04-14,21:01,Himachal Pradesh,Kullu,31.866536705242755,77.48767088167371,approved
+murder,2024-04-13,21:01,Jammu and Kashmir,Bandipora,34.4260981064262,74.62216186104344,approved
+kidnapping,2024-04-12,22:05,Jammu and Kashmir,Kishtwar,33.58230514493681,75.88916013948621,approved
+cyber_crimes,2024-04-14,11:06,Jammu and Kashmir,Anantnag,33.73620045452885,75.14804434769759,approved
+murder,2024-04-12,02:12,Jammu and Kashmir,Anantnag,33.75336782755814,75.14250182895923,approved
+crime_against_sc,2024-04-11,07:10,Jammu and Kashmir,Udhampur,32.913070027470596,75.14126586494969,approved
+crime_against_sc,2024-04-14,13:13,Jharkhand,,23.647441168223406,86.14874267368579,approved
+murder,2024-04-10,16:15,Jharkhand,Ranchi,23.40954977094225,85.23602771732841,approved
+crime_against_sc,2024-04-16,17:15,Jharkhand,Khunti,23.064897167707777,85.28997230503593,approved
+crime_against_sc,2024-04-16,17:15,Jharkhand,Khunti,23.064897167707777,85.28997230503593,approved
+crime_against_sc,2024-04-16,17:15,Jharkhand,Khunti,23.064897167707777,85.28997230503593,approved
+crime_against_sc,2024-04-16,17:15,Jharkhand,Khunti,23.064897167707777,85.28997230503593,approved
+cyber_crimes,2024-04-15,15:18,Jharkhand,Jamtara,23.961450327076022,86.8119735707296,approved
+cyber_crimes,2024-04-11,14:20,Karnataka,Bangalore Urban,12.955257553957724,77.59616088762415,approved
+crime_against_children,2024-04-15,16:21,Karnataka,Tumkur,13.3390237,77.1161448,approved
+crime_against_women,2024-04-14,22:21,Karnataka,Chikkamagaluru,13.324816726100986,75.7913818024099,approved
+murder,2024-04-11,03:28,Karnataka,Udupi,13.296351353525255,74.77734368294479,approved
+cyber_crimes,2024-04-13,22:24,Karnataka,Mandya,12.546386615817463,76.8295898102224,approved
+crime_against_children,2024-04-12,10:30,Kerala,Palakkad,10.77145636617741,76.66094969026746,approved
+cyber_crimes,2024-04-14,11:33,Kerala,Thrissur,10.482781790544806,76.26077269669624,approved
+kidnapping,2024-04-16,21:32,Kerala,Wayanad,10.856959904590893,76.18359374580905,approved
+crime_against_women,2024-04-13,22:36,Kerala,Kottayam,9.83663682589801,76.51579284458421,approved
+crime_against_women,2024-04-11,15:37,Kerala,Kottayam,10.38157193944478,76.27560424385594,approved
+murder,2024-04-11,11:42,Madhya Pradesh,Sheopur,23.135498101436916,77.08941648714246,approved
+kidnapping,2024-04-17,09:42,Madhya Pradesh,Gwalior,26.102544538100325,78.1424560211599,approved
+crime_against_women,2024-04-14,16:51,Madhya Pradesh,Jabalpur,23.170669744910366,79.94205093331404,approved
+crime_against_sc,2024-04-14,17:50,Madhya Pradesh,Vidisha,23.484093408274944,77.81176756136121,approved
+cyber_crimes,2024-04-15,16:51,Madhya Pradesh,Guna,24.639215817471374,77.31188963167371,approved
+economic_crimes,2024-04-11,00:55,Madhya Pradesh,Chhatarpur,24.906554072961278,79.59155271761121,approved
+crime_against_women,2024-04-11,23:55,Madhya Pradesh,Katni,23.82748278822754,80.40028380928561,approved
+cyber_crimes,2024-04-13,14:55,Madhya Pradesh,Rewa,24.483899151427,81.30322258919479,approved
+crime_against_sc,2024-04-12,17:58,Madhya Pradesh,Sagar,23.88860014984157,78.74340813606977,approved
+murder,2024-04-11,22:01,Maharashtra,Aurangabad,19.852235692260404,75.35961907356979,approved
+kidnapping,2024-04-12,18:01,Maharashtra,Nashik,19.98410954425881,73.79338073311375,approved
+crime_against_women,2024-04-12,20:04,Maharashtra,Pune,18.230916589086583,73.92480455338956,approved
+cyber_crimes,2024-04-11,17:05,Maharashtra,Mumbai City,18.97350665991899,73.12060545198621,approved
+cyber_crimes,2024-04-14,17:00,Maharashtra,Satara,17.690654382223805,74.01242065010592,approved
+economic_crimes,2024-04-13,19:10,Maharashtra,Nanded,19.192384438701442,77.35253892838955,approved
+economic_crimes,2024-04-12,09:12,Maharashtra,Ahemdnagar,19.075356913988728,74.75537102669479,approved
+murder,2024-04-12,08:13,Maharashtra,Jalna,19.790223014705848,75.89794915169479,approved
+murder,2024-04-13,19:20,Manipur,Bhisanpur,24.618742779040083,93.75018308870496,approved
+kidnapping,2024-04-12,17:26,Manipur,Chandel,24.166488851837226,94.02484129182996,approved
+crime_against_sc,2024-04-13,14:28,Manipur,Thoubal,24.623346376234423,94.0501098590903,approved
+kidnapping,2024-04-13,19:28,Meghalaya,North Garo Hills,25.255470992756948,91.67459105607124,approved
+crime_against_women,2024-04-13,21:27,Meghalaya,East Khasi Hills,25.599765900121373,91.49880980607124,approved
+crime_against_st,2024-04-15,20:29,Mizoram,Lunglei,22.878642458367317,92.74493406526746,approved
+crime_against_women,2024-04-14,22:30,Mizoram,Serchhip,23.292504288968804,92.84930418245496,approved
+crime_against_sc,2024-04-17,08:35,Mizoram,Champhai,23.35899314872977,93.38021849747749,approved
+crime_against_sc,2024-04-13,18:33,Nagaland,Phek,25.709042774394234,94.46154783479871,approved
+murder,2024-04-12,16:35,Nagaland,Kohima,25.658904210940467,94.10366820869967,approved
+murder,2024-04-12,16:35,Odisha,Kandhamal,20.10616917224822,84.09320066682996,approved
+kidnapping,2024-04-11,14:02,Odisha,Nayagarh,20.109780031060513,85.09570310823621,approved
+kidnapping,2024-04-14,08:07,Odisha,Ganjam,19.56845996120874,84.70678707584739,approved
+cyber_crimes,2024-04-15,05:10,Odisha,Puri,19.868768299389732,85.84057610481979,approved
+crime_against_women,2024-04-14,07:00,Odisha,Rayagada,19.42554223833164,83.5422362945974,approved
+kidnapping,2024-04-13,10:10,Punjab,Jalandhar,31.30331242346315,75.5771484039724,approved
+crime_against_women,2024-04-11,08:06,Punjab,Moga,30.750097569581616,75.13989251106979,approved
+economic_crimes,2024-04-16,21:11,Punjab,Patiala,30.293579205977558,76.3681640289724,approved
+crime_against_sc,2024-04-17,06:14,Punjab,Barnala,30.373230616348717,75.57165523990989,approved
+kidnapping,2024-04-10,22:14,Punjab,Hoshiarpur,31.504917251566816,75.8737792633474,approved
+kidnapping,2024-04-14,13:20,Rajasthan,Jodhpur,26.160861461684913,73.06787095963956,approved
+crime_against_children,2024-04-14,08:20,Rajasthan,Kota,25.176110560575307,75.95507785677911,approved
+crime_against_children,2024-04-13,04:24,Rajasthan,Udaipur,24.408638218042842,73.68310533463956,approved
+crime_against_sc,2024-04-12,16:20,Rajasthan,Jaipur,26.88150245380441,75.81170653458685,approved
+crime_against_children,2024-04-17,08:30,Rajasthan,Barmer,25.623201869941266,71.48583970963956,approved
+cyber_crimes,2024-04-14,11:27,Rajasthan,Nagaur,27.21702179728146,73.79296861588956,approved
+kidnapping,2024-04-13,09:30,Sikkim,East Sikkim,27.443331146336547,88.7277831695974,approved
+murder,2024-04-17,02:33,Sikkim,North Sikkim,27.711342520658782,88.49130248185249,approved
+murder,2024-04-10,08:30,Tamil Nadu,Pudukkottai,10.240735377833337,78.8400878570974,approved
+crime_against_women,2024-04-13,10:46,Tamil Nadu,Thanjavur,10.637664088316281,79.20483391731979,approved
+cyber_crimes,2024-04-17,12:40,Tamil Nadu,Dindigul,10.231410494193979,78.00732415169479,approved
+crime_against_children,2024-04-12,03:39,Tamil Nadu,Madurai,9.807772207992482,78.16799926338717,approved
+cyber_crimes,2024-04-13,03:40,Tamil Nadu,Tiruchirappalli,10.798335875938852,78.69149779435247,approved
+crime_against_children,2024-04-13,03:47,Telangana,Siddipet,17.989901033830293,78.89941404573621,approved
+kidnapping,2024-04-16,18:50,Telangana,Warangal Rural,17.970568939360778,79.60253904573621,approved
+economic_crimes,2024-04-17,08:50,Telangana,Khammam,17.301869931403598,80.20898424088956,approved
+kidnapping,2024-04-11,08:00,Telangana,Hyderabad,17.452852458228737,78.58300767838955,approved
+murder,2024-04-13,14:53,Tripura,North Tripura,23.806203489700508,91.60839837044479,approved
+murder,2024-04-11,11:55,Uttarakhand,Pithoragarh,30.042825152637885,80.5155028961599,approved
+crime_against_women,2024-04-10,13:00,Uttarakhand,Dehradun,30.27820745242432,78.05058288155124,approved
+economic_crimes,2024-04-17,10:00,Uttarakhand,Uttarkashi,29.317775477211633,79.60034172981979,approved
+economic_crimes,2024-04-17,10:00,Uttarakhand,Uttarkashi,29.317775477211633,79.60034172981979,approved
+crime_against_women,2024-04-11,01:00,Uttarakhand,Pauri,29.85529469428485,78.7631835602224,approved
+crime_against_women,2024-04-11,01:00,Uttarakhand,Pauri,29.85529469428485,78.7631835602224,approved
+crime_against_women,2024-04-11,01:00,Uttarakhand,Pauri,29.85529469428485,78.7631835602224,approved
+crime_against_children,2024-04-13,13:10,Uttarakhand,Dehradun,29.25069936753643,79.49047844856979,approved
+murder,2024-04-10,07:18,Uttar Pradesh,Agra,27.160188992996925,78.02545165177436,approved
+murder,2024-04-10,07:18,Uttar Pradesh,Agra,27.160188992996925,78.02545165177436,approved
+kidnapping,2024-04-15,10:20,Uttar Pradesh,Jhansi,25.28716960833063,78.60058587044479,approved
+crime_against_children,2024-04-12,08:18,Uttar Pradesh,Etah,27.55966046091766,78.61157219856979,approved
+crime_against_sc,2024-04-13,18:20,Uttar Pradesh,Bareilly,28.320581443527207,79.40258782356977,approved
+murder,2024-04-10,07:18,Uttar Pradesh,Agra,27.160188992996925,78.02545165177436,approved
+murder,2024-04-10,07:18,Uttar Pradesh,Agra,27.160188992996925,78.02545165177436,approved
+kidnapping,2024-04-15,10:20,Uttar Pradesh,Jhansi,25.28716960833063,78.60058587044479,approved
+crime_against_children,2024-04-12,08:18,Uttar Pradesh,Etah,27.55966046091766,78.61157219856979,approved
+crime_against_sc,2024-04-13,18:20,Uttar Pradesh,Bareilly,28.320581443527207,79.40258782356977,approved
+crime_against_sc,2024-04-13,18:20,Uttar Pradesh,Bareilly,28.320581443527207,79.40258782356977,approved
+murder,2024-04-14,03:26,Uttar Pradesh,Fatehpur,25.92000828515919,80.84619127213956,approved
+cyber_crimes,2024-04-16,00:24,Uttar Pradesh,Varanasi,25.1984798325393,83.08740220963956,approved
+crime_against_women,2024-04-11,19:27,Uttar Pradesh,Kanpur Nagar,26.45360717280701,80.41333001106979,approved
+economic_crimes,2024-04-14,12:30,Uttar Pradesh,Lucknow,26.818371968010627,80.94836424104871,approved
+crime_against_children,2024-04-12,08:18,Uttar Pradesh,Etah,27.55966046091766,78.61157219856979,approved
+crime_against_sc,2024-04-13,18:20,Uttar Pradesh,Bareilly,28.320581443527207,79.40258782356977,approved
+crime_against_sc,2024-04-13,18:20,Uttar Pradesh,Bareilly,28.320581443527207,79.40258782356977,approved
+murder,2024-04-14,03:26,Uttar Pradesh,Fatehpur,25.92000828515919,80.84619127213956,approved
+cyber_crimes,2024-04-16,00:24,Uttar Pradesh,Varanasi,25.1984798325393,83.08740220963956,approved
+crime_against_women,2024-04-11,19:27,Uttar Pradesh,Kanpur Nagar,26.45360717280701,80.41333001106979,approved
+economic_crimes,2024-04-14,12:30,Uttar Pradesh,Lucknow,26.818371968010627,80.94836424104871,approved
+crime_against_children,2024-04-14,09:30,Uttar Pradesh,Sultanpur,26.09378829558393,82.12060533463955,approved
+cyber_crimes,2024-04-13,16:30,West Bengal,Malda,24.99551784481932,88.18505845963955,approved
+kidnapping,2024-04-17,03:33,West Bengal,Purulia,25.864660859482843,87.74560533463955,approved
+crime_against_women,2024-04-13,10:35,West Bengal,Kolkata,22.392237553165337,88.42675767838956,approved
+crime_against_children,2024-04-11,18:40,West Bengal,Darjeeling,27.03866979464276,88.26745604630561,approved
+crime_against_st,2024-04-12,08:40,West Bengal,Paschim Bardhaman,27.31077350219448,93.72216783463955,approved
+crime_against_sc,2024-04-14,17:40,Andaman and Nicobar Islands,South Andaman,11.848199112116948,92.68176267854871,approved
+murder,2024-04-12,00:40,Andaman and Nicobar Islands,Nicobar,12.81324084212151,92.80206297989936,approved
+crime_against_sc,2024-04-12,16:20,Andaman and Nicobar Islands,South Andaman,11.848199112116948,92.68176267854871,approved
+murder,2024-04-16,20:40,Andaman and Nicobar Islands,Nicobar,12.81324084212151,92.80206297989936,approved
+cyber_crimes,2024-04-17,11:43,Chandigarh,Chandigarh,30.70234609161439,76.79003904573621,approved
+crime_against_women,2024-04-12,04:45,Chandigarh,Chandigarh,30.69808035845817,76.71780395088719,approved
+crime_against_women,2024-04-12,04:45,Chandigarh,Chandigarh,30.69808035845817,76.71780395088719,approved
+kidnapping,2024-04-11,12:45,Dadar and Nagar Haveli,Dadra Nagar Haveli,20.202456432929527,73.00923156319188,approved
+kidnapping,2024-04-18,12:45,Dadar and Nagar Haveli,Dadra Nagar Haveli,20.202456432929527,73.00923156319188,approved
+murder,2024-04-17,00:46,Daman and Diu,Daman,20.419379489091263,72.85425567417406,approved
+crime_against_children,2024-04-16,11:54,Daman and Diu,Diu,20.390869826165762,72.8339996316936,approved
+crime_against_women,2024-04-13,14:54,Pondicherry,Puducherry,11.933182297329722,79.82890892002617,approved
+crime_against_women,2024-04-13,14:54,Pondicherry,Puducherry,11.933182297329722,79.82890892002617,approved
+murder,2024-04-10,03:55,Lakshadweep,Lakshadweep,10.57629501343737,72.64412069307582,approved
+crime_against_women,2024-04-17,23:55,Lakshadweep,Lakshadweep,10.567415597559101,72.63986563679282,approved
+crime_against_sc,2024-04-13,18:20,Uttar Pradesh,Bareilly,28.320581443527207,79.40258782356977,approved
+murder,2024-04-14,03:26,Uttar Pradesh,Fatehpur,25.92000828515919,80.84619127213956,approved
+cyber_crimes,2024-04-16,00:24,Uttar Pradesh,Varanasi,25.1984798325393,83.08740220963956,approved
+crime_against_women,2024-04-11,19:27,Uttar Pradesh,Kanpur Nagar,26.45360717280701,80.41333001106979,approved
+murder,2024-04-17,14:00,Delhi,Central Delhi,28.59489195012476,77.26025383919477,approved
+crime_against_women,2024-04-14,10:00,Delhi,North East Delhi,28.782750626069493,77.09889220772313,approved
+cyber_crimes,2024-04-12,17:00,Delhi,West Delhi,28.65882432860881,77.00688170967624,approved
+cyber_crimes,2024-04-12,17:00,Delhi,West Delhi,28.65882432860881,77.00688170967624,approved
+crime_against_women,2024-04-14,10:00,Delhi,North East Delhi,28.782750626069493,77.09889220772313,approved
+cyber_crimes,2024-04-12,17:00,Delhi,West Delhi,28.65882432860881,77.00688170967624,approved
+crime_against_women,2024-04-14,10:00,Delhi,North East Delhi,28.782750626069493,77.09889220772313,approved
+cyber_crimes,2024-04-12,17:00,Delhi,West Delhi,28.65882432860881,77.00688170967624,approved
+crime_against_children,2024-04-03,03:17,Gujarat,Ahmedabad,23.0225,72.5714,approved

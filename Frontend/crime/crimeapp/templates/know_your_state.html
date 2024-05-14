@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Know Your State</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-size: center;
+            background-position: center;
+            transition: background-image 0.5s ease;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        #stateSelect {
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        #map {
+            height: 400px;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: opacity 0.5s ease;
+        }
+
+        #enterButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Know Your State</h1>
+        <select id="stateSelect">
+            <option value="">Select a State</option>
+            <option value="Andhra_Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal_Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal_Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya_Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil_Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar_Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West_Bengal">West Bengal</option>
+            <option value="A&N_Islands">A&N Islands</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="D&N_Haveli_and_Daman_&_Diu">D&N Haveli and Daman & Diu</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Lakshadweep">Lakshadweep</option>
+            <option value="Puducherry">Puducherry</option>
+        </select>
+        <div id="map"></div>
+        <button id="enterButton">Enter</button> <!-- Add Enter button -->
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        var map = L.map('map').setView([20.5937, 78.9629], 5); // Default center and zoom level
+
+        // Define state coordinates (you can fill this with actual coordinates)
+        var stateCoordinates = {
+            "Andhra_Pradesh": { lat: 15.9129, lng: 79.7400 },
+            "Arunachal_Pradesh": { lat: 27.1004, lng: 93.6167 },
+            "Assam": { lat: 26.2006, lng: 92.9376 },
+            "Bihar": { lat: 25.0961, lng: 85.3131 },
+            "Chhattisgarh": { lat: 21.2787, lng: 81.8661 },
+            "Goa": { lat: 15.2993, lng: 74.1240 },
+            "Gujarat": { lat: 22.2587, lng: 71.1924 },
+            "Haryana": { lat: 29.0588, lng: 76.0856 },
+            "Himachal_Pradesh": { lat: 31.1048, lng: 77.1734 },
+            "Jharkhand": { lat: 23.6102, lng: 85.2799 },
+            "Karnataka": { lat: 15.3173, lng: 75.7139 }, // Added Karnataka
+            "Kerala": { lat: 10.8505, lng: 76.2711 },
+            "Madhya_Pradesh": { lat: 22.9734, lng: 78.6569 },
+            "Maharashtra": { lat: 19.7515, lng: 75.7139 }, // Added Maharashtra
+            "Manipur": { lat: 24.6637, lng: 93.9063 },
+            "Meghalaya": { lat: 25.4670, lng: 91.3662 },
+            "Mizoram": { lat: 23.1645, lng: 92.9376 },
+            "Nagaland": { lat: 26.1584, lng: 94.5624 },
+            "Odisha": { lat: 20.9517, lng: 85.0985 },
+            "Punjab": { lat: 31.1471, lng: 75.3412 },
+            "Rajasthan": { lat: 27.0238, lng: 74.2179 },
+            "Sikkim": { lat: 27.5330, lng: 88.5122 },
+            "Tamil_Nadu": { lat: 11.1271, lng: 78.6569 }, // Added Tamil Nadu
+            "Telangana": { lat: 18.1124, lng: 79.0193 },
+            "Tripura": { lat: 23.9408, lng: 91.9882 },
+            "Uttar_Pradesh": { lat: 26.8467, lng: 80.9462 }, // Added Uttar Pradesh
+            "Uttarakhand": { lat: 30.0668, lng: 79.0193 },
+            "West_Bengal": { lat: 22.9868, lng: 87.8550 }, // Added West Bengal
+            "A&N_Islands": { lat: 11.7401, lng: 92.6586 },
+            "Chandigarh": { lat: 30.7333, lng: 76.7794 },
+            "D&N_Haveli_and_Daman_&_Diu": { lat: 20.4283, lng: 72.8397 },
+            "Delhi": { lat: 28.7041, lng: 77.1025 },
+            "Lakshadweep": { lat: 10.5667, lng: 72.6417 },
+            "Puducherry": { lat: 11.9416, lng: 79.8083 }
+            // Add coordinates for other states
+        };
+
+        // Add OpenStreetMap tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Function to zoom to the selected state
+        function zoomToState(state) {
+            if (state in stateCoordinates) {
+                map.setView([stateCoordinates[state].lat, stateCoordinates[state].lng], 7); // Zoom level for selected state
+                document.body.style.backgroundImage = `url('/static/assets/img/${state.toLowerCase()}.jpg')`
+            }
+        }
+
+        // Event listener for state selection
+        document.getElementById('stateSelect').addEventListener('change', function () {
+            var selectedState = this.value;
+            if (selectedState) {
+                zoomToState(selectedState);
+            }
+        });
+
+        // Event listener for the Enter button
+        document.getElementById('enterButton').addEventListener('click', function () {
+            var selectedState = document.getElementById('stateSelect').value;
+            if (selectedState) {
+                // Redirect to the selected state's HTML page
+                console.log(selectedState)
+                window.location.href = selectedState.toLowerCase();
+            }
+        });
+    </script>
+</body>
+</html>

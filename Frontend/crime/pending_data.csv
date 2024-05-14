@@ -1,0 +1,57 @@
+Crime_Type,Date,Time,State,District,Latitude,Longitude,Approval Status
+crime_against_children,2024-04-10,15:21,Karnataka,Davanagere,13.33879722629903,77.13543937521384,pending
+kidnapping,2024-04-09,07:49,Delhi,New Delhi,28.6139,77.209,pending
+crime_against_children,2024-04-08,17:45,Maharashtra,Mumbai,19.0760,72.8777,pending
+crime_against_children,2024-04-07,18:40,Tamil Nadu,Chennai,13.0827,80.2707,pending
+crime_against_children,2024-04-06,01:54,Uttar Pradesh,Lucknow,26.8467,80.9462,pending
+kidnapping,2024-04-05,15:00,Rajasthan,Jaipur,26.9124,75.7873,pending
+crime_against_children,2024-04-04,02:19,Kerala,Thiruvananthapuram,8.5241,76.9366,pending
+crime_against_children,2024-04-03,03:17,Gujarat,Ahmedabad,23.0225,72.5714,pending
+crime_against_children,2024-04-02,12:58,West Bengal,Kolkata,22.5726,88.3639,pending
+kidnapping,2024-04-01,18:21,Assam,Guwahati,26.1445,91.7362,pending
+crime_against_children,2024-03-31,10:55,Punjab,Chandigarh,30.7333,76.7794,pending
+crime_against_children,2024-03-30,22:29,Haryana,Gurgaon,28.4595,77.0266,pending
+crime_against_children,2024-03-29,17:50,Bihar,Patna,25.5941,85.1376,pending
+kidnapping,2024-03-28,23:05,Madhya Pradesh,Bhopal,23.2599,77.4126,pending
+crime_against_children,2024-03-27,15:33,Andhra Pradesh,Hyderabad,17.3850,78.4867,pending
+crime_against_children,2024-03-26,04:25,Telangana,Warangal,17.9784,79.6001,pending
+crime_against_children,2024-03-25,00:55,Odisha,Bhubaneswar,20.2961,85.8245,pending
+kidnapping,2024-03-24,11:35,Uttarakhand,Dehradun,30.3165,78.0322,pending
+crime_against_children,2024-03-23,22:16,Goa,Panaji,15.4909,73.8278,pending
+crime_against_children,2024-03-22,05:51,Himachal Pradesh,Shimla,31.1048,77.1734,pending
+crime_against_children,2024-03-21,03:20,Tripura,Agartala,23.8315,91.2868,pending
+kidnapping,2024-03-20,08:41,Manipur,Imphal,24.8170,93.9368,pending
+crime_against_children,2024-03-19,22:26,Mizoram,Aizawl,23.7271,92.7176,pending
+crime_against_children,2024-03-18,18:09,Meghalaya,Shillong,25.5788,91.8933,pending
+crime_against_children,2024-03-17,07:42,Sikkim,Gangtok,27.3389,88.6065,pending
+kidnapping,2024-03-16,22:45,Arunachal Pradesh,Itanagar,27.0844,93.6053,pending
+crime_against_children,2024-03-15,05:04,Nagaland,Kohima,25.6751,94.1086,pending
+crime_against_children,2024-03-14,15:30,Chhattisgarh,Raipur,21.2514,81.6296,pending
+crime_against_children,2024-03-13,14:25,Jammu and Kashmir,Srinagar,34.0837,74.7973,pending
+kidnapping,2024-03-12,02:12,Ladakh,Leh,34.1526,77.5771,pending
+crime_against_children,2024-03-11,17:40,Daman and Diu,Daman,20.4283,72.8397,pending
+crime_against_children,2024-03-10,07:09,Dadra and Nagar Haveli,Silvassa,20.2739,73.0169,pending
+crime_against_children,2024-03-09,04:29,Lakshadweep,Kavaratti,10.5667,72.6167,pending
+kidnapping,2024-03-08,17:59,Andaman and Nicobar Islands,Port Blair,11.6234,92.7265,pending
+crime_against_children,2024-03-07,22:16,Puducherry,Puducherry,11.9139,79.8145,pending
+crime_against_children,2024-03-06,04:31,Chandigarh,Chandigarh,30.7333,76.7794,pending
+crime_against_children,2024-03-05,19:21,Ladakh,Kargil,34.5553,76.1325,pending
+kidnapping,2024-03-04,08:56,Delhi,New Delhi,28.6139,77.209,pending
+crime_against_children,2024-03-03,16:35,Rajasthan,Udaipur,24.5854,73.7125,pending
+crime_against_children,2024-03-02,01:12,Tamil Nadu,Coimbatore,11.0168,76.9558,pending
+crime_against_children,2024-03-01,11:19,Kerala,Kochi,9.9312,76.2673,pending
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,pending
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,pending
+murder,2024-04-04,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,pending
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,pending
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,pending
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,pending
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,pending
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,pending
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,pending
+murder,2024-04-05,06:38,Bihar,Patna,25.608270478876463,85.12467956490583,pending
+crime_against_sc,2024-04-09,06:34,Jharkhand,Ranchi,23.358740991068792,85.32861327286811,pending
+kidnapping,2024-04-12,13:45,Uttarakhand,Pithoragarh,30.116473094604714,80.46716307755561,pending
+crime_against_sc,2024-04-13,10:57,Jharkhand,Ranchi,23.363862639445216,85.32490539131686,pending
+crime_against_women,2024-04-13,21:54,Bihar,Patna,25.61616376327178,85.144776821071,pending
+murder,2024-04-11,23:21,Karnataka,Tumkur,13.3383324,77.1362812,pending

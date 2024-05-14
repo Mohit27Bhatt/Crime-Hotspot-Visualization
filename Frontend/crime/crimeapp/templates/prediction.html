@@ -1,0 +1,225 @@
+{% extends 'base1.html' %}
+{% block code %}
+<style>
+    #hero {
+        display: flex;
+        justify-content: center; /* Horizontally center content */
+        align-items: center; /* Vertically center content */
+        height: 130vh; /* Adjust the height as needed */
+        background-color: #9CAFAA;
+    }
+
+    .hero-container {
+        width: 100%;
+        max-width: 600px; /* Adjust the maximum width as needed */
+        background-color: #EFBC9B;
+    }
+
+    .card {
+        background-color: #EFBC9B;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Add CSS for dropdown */
+    .input-container select {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        background-color: #f9f9f9;
+        color: #333;
+        font-size: 16px;
+        appearance: none; /* Remove default arrow */
+        -webkit-appearance: none; /* Remove default arrow for Chrome */
+        -moz-appearance: none; /* Remove default arrow for Firefox */
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="%23333"><path d="M8 10l8 8 8-8z"/></svg>'); /* Custom arrow */
+        background-repeat: no-repeat;
+        background-position-x: calc(100% - 10px);
+        background-position-y: 50%;
+        cursor: pointer;
+    }
+
+    /* Style for input field */
+    .input-container input {
+        width: calc(100% - 40px);
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        background-color: #f9f9f9;
+        color: #333;
+        font-size: 16px;
+        appearance: none; /* Remove default arrow */
+        -webkit-appearance: none; /* Remove default arrow for Chrome */
+        -moz-appearance: none; /* Remove default arrow for Firefox */
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="%23333"><path d="M8 10l8 8 8-8z"/></svg>'); /* Custom arrow */
+        background-repeat: no-repeat;
+        background-position-x: calc(100% - 10px);
+        background-position-y: 50%;
+        cursor: pointer;
+    }
+
+    /* Style for submit button */
+    .submit-button {
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        background-color: #f9f9f9;
+        color: #333;
+        font-size: 16px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .submit-button:hover {
+        background-color: #f4511e;
+        color: #ffffff;
+    }
+
+    /* Custom arrow icon */
+    .submit-button::after {
+        content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="%23333"><path d="M8 10l8 8 8-8z"/></svg>');
+        position: absolute;
+        top: 50%;
+        right: 10px; /* Adjust the position of the icon */
+        transform: translateY(-50%);
+    }
+</style>
+
+<!-- ======= Hero Section ======= -->
+<section id="hero">
+    <div class="hero-container">
+        <div class="card">
+            <h2 style="color: black;">Crime Report Form</h2>
+            <form action="" method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="location" style='color:black'>Location</label>
+                    <div class="input-container">
+                        <select id="location" name="f1" class="form-control">
+                            <option value="" disabled selected>Select a location</option>
+                            <option value="1">Banashankari</option>
+                            <option value="2">Bellandur</option>
+                            <option value="3">Electronic City</option>
+                            <option value="4">HSR layout</option>
+                            <option value="5">Indiranagar</option>
+                            <option value="6">Jayanagar</option>
+                            <option value="7">JP Nagar</option>
+                            <option value="8">Kamakshipalya</option>
+                            <option value="9">Koramangala</option>
+                            <option value="10">Marathahalli</option>
+                            <option value="11">Whitefield</option>
+                            <option value="12">Yelahanka</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- Add CSS for dropdown -->
+                <!-- End CSS for
+dropdown -->
+<div class="form-group">
+    <label for="victim_gender" style='color:black'>Victim Gender</label>
+    <div class="input-container">
+        <select id="victim_gender" name="f4" class="form-control">
+            <option value="" disabled selected>Select a victim gender</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Others</option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label for="victim_age" style='color:black'>Victim Age</label>
+    <div class="input-container">
+        <input type="number" id="victim_age" name="f5" class="form-control" placeholder="Victim Age">
+    </div>
+</div>
+<div class="form-group">
+    <label for="perpetrator_gender" style='color:black'>Perpetrator Gender</label>
+    <div class="input-container">
+        <select id="perpetrator_gender" name="f6" class="form-control">
+            <option value="" disabled selected>Select a perpetrator gender</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Others</option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label for="perpetrator_age" style='color:black'>Perpetrator Age</label>
+    <div class="input-container">
+        <input type="number" id="perpetrator_age" name="f7" class="form-control" placeholder="Perpetrator Age">
+    </div>
+</div>
+<div class="form-group">
+    <label for="weapon" style='color:black'>Weapon</label>
+    <div class="input-container">
+        <select id="weapon" name="f8" class="form-control">
+            <option value="" disabled selected>Select a weapon</option>
+            <option value="1">Blunt Object</option>
+            <option value="2">Gun</option>
+            <option value="3">Knife</option>
+            <option value="4">None</option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label for="injury" style='color:black'>Injury</label>
+    <div class="input-container">
+        <select id="injury" name="f9" class="form-control">
+            <option value="" disabled selected>Select an injury</option>
+            <option value="1">Fatal</option>
+            <option value="2">Major</option>
+            <option value="3">Minor</option>
+            <option value="4">None</option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label for="weather" style='color:black'>Weather</label>
+    <div class="input-container">
+        <select id="weather" name="f10" class="form-control">
+            <option value="" disabled selected>Select the weather</option>
+            <option value="1">Clear</option>
+            <option value="2">Overcast</option>
+            <option value="3">Partly Cloudy</option>
+            <option value="4">Rain</option>
+            <option value="5">Snow</option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label for="temperature" style='color:black'>Temperature</label>
+    <div class="input-container">
+        <input type="number" id="temperature" name="f11" class="form-control" placeholder="Temperature">
+    </div>
+</div>
+<div class="form-group">
+    <label for="previous_activity" style='color:black'>Previous Activity</label>
+    <div class="input-container">
+        <select id="previous_activity" name="f12" class="form-control">
+            <option value="" disabled selected>Select a previous activity</option>
+            <option value="1">Assault</option>
+            <option value="2">Burglary</option>
+            <option value="3">Drug Offense</option>
+            <option value="4">Forgery</option>
+            <option value="5">Fraud</option>
+            <option value="6">None</option>
+            <option value="7">Robbery</option>
+            <option value="8">Theft</option>
+            <option value="9">Vandalism</option>
+        </select>
+    </div>
+</div>
+<!-- Add CSS for dropdown -->
+<!-- End CSS for dropdown -->
+<!-- Repeat the same pattern for other form fields -->
+<!-- Apply button styles only to the submit button -->
+<button type="submit" class="submit-button"><span>Submit</span></button>
+</form>
+</div>
+</div>
+</section><!-- End Hero -->
+{% endblock %}
